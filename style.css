@@ -145,3 +145,35 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+.customers-box {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.customer-images-box {
+  display: flex;
+}
+
+.customer-images-box img {
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #e6edf7;
+}
+
+.customer-images-box img:last-child {
+  margin-right: 0;
+}
+
+.customer-experience {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.customer-experience span {
+  color: #00439c;
+}
