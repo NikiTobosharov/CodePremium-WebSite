@@ -105,6 +105,11 @@ Medium: 11px
   color: #004aad;
 }
 
+.nav-list .nav-link-cta:hover,
+.nav-list .nav-link-cta:active {
+  color: #fff;
+}
+
 /*Main CSS*/
 * {
   padding: 0px;
