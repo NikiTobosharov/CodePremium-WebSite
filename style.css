@@ -1,62 +1,3 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
-
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Font weights
-Default: 400
-Medium: 500
-Semi-bold: 600
-Bold: 700
-
-- Line heights
-Default: 1
-Small: 1.05
-Medium: 1.2
-Paragraph default: 1.6
-Large: 1.8
-
-- Letter spacing
--0.5px
-0.75px
-
---- 02 COLORS
-
-- Primary: #004aad 
-- Tints:
-#e6edf7
-#ccdbef
-#336ebd
-
-- Shades: 
-#00439c
-#001634 
-
-- Accents:
-- Greys
-
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed on #e6edf7)
-#555
-#333
-
---- 05 SHADOWS
-
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-
---- 06 BORDER-RADIUS
-
-Default: 9px
-Medium: 11px
-
---- 07 WHITESPACE
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
 /*Navigation*/
 
 .header {
@@ -110,31 +51,12 @@ Medium: 11px
   color: #fff;
 }
 
-/*Main CSS*/
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Rubik", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
 /*Hero Section*/
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   max-width: 130rem;
-  margin-inline: auto;
   gap: 9.6rem;
   padding: 3.2rem;
 }
@@ -186,52 +108,52 @@ body {
   color: #00439c;
 }
 
-/*Main CSS*/
-
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
+/*Section how*/
+.section-how {
+  padding: 9.6rem 0;
 }
 
-.btn:link,
-.btn:visited {
-  font-size: 2rem;
-  color: #fff;
-  display: inline-block;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  transition: all 0.3s;
+.step-number {
+  font-size: 8.6rem;
   font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
 }
 
-.btn-full:link,
-.btn-full:visited {
-  background-color: #004aad;
-  color: #fff;
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 
-.btn-outline:link,
-.btn-outline:visited {
-  background-color: #fff;
-  color: #555;
+.img-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-full:hover,
-.btn-full:active {
-  background-color: #00439c;
+.step-image {
+  width: 40%;
 }
 
-.btn-outline:hover,
-.btn-outline:active {
+.img-box::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 70%;
   background-color: #e6edf7;
-  box-shadow: inset 0 0 0 3px #fff;
+  padding-bottom: 70%;
+  border-radius: 50%;
+  z-index: -2;
 }
 
-.margin-right-sm {
-  margin-right: 1.6rem !important;
+.img-box::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 55%;
+  background-color: #ccdbef;
+  padding-bottom: 55%;
+  border-radius: 50%;
+  z-index: -1;
 }
