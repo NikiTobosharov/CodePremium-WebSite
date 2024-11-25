@@ -75,6 +75,10 @@ body {
   color: #555;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .container {
   max-width: 120rem;
   margin-inline: auto;
