@@ -160,10 +160,19 @@
 
 /*Project Section*/
 
+.project-section {
+  padding: 9.6rem 0;
+}
+
 .project {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.07);
   border-radius: 11px;
   overflow: hidden;
+}
+
+.project:hover {
+  transform: translateY(-1.2rem);
+  transition: all 0.3s;
 }
 
 .project-content {
@@ -248,4 +257,13 @@
 
 .list-item span {
   font-size: 1.8rem;
+}
+
+.all-projects {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.text-align-center {
+  text-align: center;
 }
