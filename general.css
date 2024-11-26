@@ -89,6 +89,10 @@ strong {
   gap: 9.6rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--two-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -195,4 +199,27 @@ strong {
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.icon-list {
+  height: 3rem;
+  width: 3rem;
+  color: #004aad;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.list-item span {
+  font-size: 1.8rem;
 }
