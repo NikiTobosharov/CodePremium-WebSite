@@ -64,6 +64,10 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+*:focus {
+  box-shadow: 0 0 0 0.8rem rgba(0, 74, 173, 0.5);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -142,6 +146,7 @@ strong {
   margin-bottom: 1.6rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -154,6 +159,7 @@ strong {
   font-weight: 600;
 }
 
+.btn,
 .btn-full:link,
 .btn-full:visited {
   background-color: #004aad;
