@@ -109,6 +109,10 @@ strong {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--five-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {

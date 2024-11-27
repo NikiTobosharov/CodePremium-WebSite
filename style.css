@@ -404,7 +404,7 @@
 /*Section CTA*/
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 12.8rem;
 }
 
 .cta {
@@ -491,4 +491,79 @@
     ),
     url("/04-project-code_premium/img/appointment.png");
   background-size: cover;
+}
+
+/*footer*/
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.contacts p {
+  margin-bottom: 1.6rem;
+}
+
+.footer-navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+  line-height: 1.6;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }

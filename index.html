@@ -17,19 +17,19 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="img/codepremium-logo.png" alt="CodePremium logo" />
+      <a href="#how-it-works"><img class="logo" src="img/codepremium-logo.png" alt="CodePremium logo" /></a>    
       <nav class="main-nav">
         <ul class="nav-list">
-          <li><a href="#" class="nav-link">Как работим</a></li>
-          <li><a href="#" class="nav-link">Проекти</a></li>
-          <li><a href="#" class="nav-link">Отзиви</a></li>
-          <li><a href="#" class="nav-link">Цени</a></li>
-          <li><a href="#" class="nav-link nav-link-cta">Свържи се с нас</a></li>
+          <li><a href="#how-it-works" class="nav-link">Как работим</a></li>
+          <li><a href="#projects" class="nav-link">Проекти</a></li>
+          <li><a href="#reviews" class="nav-link">Отзиви</a></li>
+          <li><a href="#pricing" class="nav-link">Цени</a></li>
+          <li><a href="#cta" class="nav-link nav-link-cta">Свържи се с нас</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="section-hero">
+      <section class="section-hero" id="how-it-works">
         <div class="container hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -40,8 +40,8 @@
               Опит с CodePremium (стъпка по стъпка), БЕЗ Предишен Опит и БЕЗ
               Скъпи Курсове!
             </p>
-            <a href="#" class="btn btn-full margin-right-sm">Започни сега</a>
-            <a href="#" class="btn btn-outline">Научи повече ↓</a>
+            <a href="#cta" class="btn btn-full margin-right-sm">Започни сега</a>
+            <a href="#how-it-works" class="btn btn-outline">Научи повече ↓</a>
             <div class="customers-box">
               <div class="customer-images-box">
                 <img src="img/customers/customer-1.png" alt="Клиент номер 1" />
@@ -128,7 +128,7 @@
           </div>
         </div>
       </section>
-      <section class="project-section">
+      <section class="project-section" id="projects">
         <div class="container text-align-center">
           <span class="subheading">Проекти</span>
           <h2 class="heading-secondary">
@@ -223,7 +223,7 @@
           <a class="link" href="#">Виж всички проекти →</a>
         </div>
       </section>
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="reviews">
         <div class="testimonials-container">
           <span class="subheading">Отзиви</span>
           <h2 class="heading-secondary">Опиташ ли, няма да съжаляваш...</h2>
@@ -345,7 +345,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Цени</span>
           <h2 class="heading-secondary">
@@ -438,7 +438,7 @@
             </div>
           </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container cta">
           <div class="cta-text-box">
             <h2 class="heading-secondary">Вземи своя безплатен разговор сега!</h2>
@@ -470,6 +470,51 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a class="footer-logo" href="#how-it-works"><img class="logo" src="img/codepremium-logo.png" alt="CodePremium logo" /></a>
+            <ul class="social-links">
+              <li><a class="footer-link" href="https://www.instagram.com/marto_171/">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+              <li><a class="footer-link" href="https://www.facebook.com/martin.georgiev.33046">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+            </ul>
+            <p class="copyright">Авторски права &copy; 2024 от CodePremium, Inc. Всички права запазени.</p>
+          </div>
+        <div class="contact-col">
+          <p class="footer-heading">Свържете се с нас</p>
+          <address class="contacts">
+            <p>ул. Генерал Гурко, Стара Загора, Стара Загора, 6003 България</p>
+            <p><a class="footer-link" target="_blank" href="tel:+359 88 847 8962">+359 88 847 8962</a>
+              <br />
+               <a class="footer-link" target="_blank" href="mailto:support@codemasterclass.net">support@codemasterclass.net</a>
+            </p>
+            </address>
+        </div>
+        <div class="account-col">
+          <p class="footer-heading">Акаунт</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-link" href="https://www.skool.com/codefree/about">Създай профил</a></li>
+            <li><a class="footer-link" href="https://www.skool.com/codefree/about">Sign in</a></li>
+            <li><a class="footer-link" href="https://www.apple.com/app-store/">Приложение на iOS</a></li>
+            <li><a class="footer-link" href="https://play.google.com/store/games?device=windows&pli=1">Приложение на Android</a></li>
+          </ul>
+        </div>
+        <div class="company-col">
+          <p class="footer-heading">Компания</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-link" href="https://html-css-codepremium.vercel.app/">За CodePremium</a></li>
+          </ul>
+        </div>
+        <div class="resources-col">
+          <p class="footer-heading">Ресурси</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-link" href="https://html-css-codepremium.vercel.app/">Поверителност и условия</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
