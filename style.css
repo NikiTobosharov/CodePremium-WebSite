@@ -442,6 +442,8 @@
 
 .section-cta {
   padding: 9.6rem 0 12.8rem;
+  margin-inline: auto;
+  max-width: 130rem;
 }
 
 .cta {
